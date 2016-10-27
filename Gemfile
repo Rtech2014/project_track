@@ -1,8 +1,8 @@
 source 'https://rubygems.org'
 
-
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.6'
+
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use SCSS for stylesheets
@@ -36,7 +36,7 @@ gem 'pundit'
 # Use Bootstrap for styles
 gem 'bootstrap-sass', '~> 3.3.6'
 # Use FriendlyId for user friendly URLs
-
+gem 'pg'
 gem 'rails-rename', '~> 1.0.0'
 
 # Use ActiveModel has_secure_password
@@ -66,3 +66,4 @@ group :development do
   gem 'spring'
 end
 
+gem 'rails_12factor', group: :production
